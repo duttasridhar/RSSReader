@@ -1,0 +1,33 @@
+<md-card class="itemCard" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
+
+<md-card-header>
+<md-card-header-text>
+<md-title class="itemHeader">
+    <md-toolbar class="itemHeader">
+        <md-button target="_blank" ng-href="{{item.link}}" layout-align="center center">
+            {{item.title}}
+            <div>on {{item.publishedDate}}</div>
+        </md-button>
+        <!--<md-button class="md-fab md-mini" aria-label="More" ng-if="isHovered" layout-align = "center end">-->
+            <!--<i class="material-icons">done</i>-->
+        <!--</md-button>-->
+    </md-toolbar>
+
+</md-title>
+</md-card-header-text>
+</md-card-header>
+
+<md-card-content>
+    <div ng-bind-html="item.content"></div>
+</md-card-content>
+</md-card>
+<!--<div ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">-->
+    <!--<div class="md-list-item-text">-->
+        <!--<span>{{item.title}}</span>-->
+        <!--<p>{{item.contentSnippet}}</p>-->
+    <!--</div>-->
+    <!--<md-button class="md-fab md-secondary md-mini" aria-label="More" ng-if="isHovered">-->
+        <!--<i class="material-icons">done</i>-->
+    <!--</md-button>-->
+    <!--<md-divider></md-divider>-->
+<!--</div>-->
