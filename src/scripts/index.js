@@ -40,7 +40,7 @@
 	app.directive("itemSnippet", function(){
 		return {
 			restrict : 'E',
-			templateUrl : 'itemSnippetView.html',
+			templateUrl : './src/itemSnippetView.html',
 			link: function(scope){
 				scope.isHovered = false;
 				scope.hoverIn = function() {
