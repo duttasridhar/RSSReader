@@ -9,7 +9,7 @@
 		{channelName: "Twitter",channelUrl:"https://blog.twitter.com/api/blog.rss?name=engineering"},
 		{channelName: "Medium", channelUrl:"https://medium.com/feed/medium-eng"},
 		{channelName: "Dropbox", channelUrl:"https://blogs.dropbox.com/tech/feed/"},
-
+		{channelName: "ACM", channelUrl:"http://queue.acm.org/rss/feeds/queuecontent.xml"},
 	];
 
 	var rssChannelItemList = 
