@@ -11,6 +11,8 @@
 		{channelName: "Dropbox", channelUrl:"https://blogs.dropbox.com/tech/feed/"},
 		{channelName: "ACM", channelUrl:"http://queue.acm.org/rss/feeds/queuecontent.xml"},
 		{channelName: "Yelp", channelUrl:"http://engineeringblog.yelp.com/feed.xml"},
+		{channelName: "a16z", channelUrl:"http://us7.campaign-archive2.com/feed?u=35c671b34bb404149166bf755&id=6da14709cd"}
+		
 	];
 
 	var rssChannelItemList = 
