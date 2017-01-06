@@ -51,5 +51,5 @@ angular.module('argus.directives.charts.myTable', [])
             });
         }
     }
-}]);
-angular.injector(['argus.directives.charts.myTable']);
+}]).run();
+
