@@ -1,4 +1,4 @@
-angular.module('argus.directives.charts.myTable', [])
+angular.module('argus')
 .directive('agMyTable', ['DashboardService', 'growl', 'VIEWELEMENT', function(DashboardService, growl, VIEWELEMENT) {
     var metricNameIndex = 1;
     return {
@@ -51,5 +51,5 @@ angular.module('argus.directives.charts.myTable', [])
             });
         }
     }
-}]).run();
+}]);
 
