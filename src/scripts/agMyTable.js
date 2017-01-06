@@ -13,6 +13,7 @@ angular.module('argus')
         controller: 'ViewElements',
         template: '<div ng-transclude=""> </div>',
         link: function(scope, element, attributes, dashboardCtrl) {
+            console.log('hi');
             var metricExpression;
             var indicatorHTML = 
                 '<div >' +
